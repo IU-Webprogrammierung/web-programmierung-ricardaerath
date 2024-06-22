@@ -1,22 +1,21 @@
-main {
-    color:blueviolet;
-}
-h1 {
-    color:cornflowerblue;
-}
-
-footer {
-    color:sienna;
+.button-container {
+    display: flex; /* Flexbox für die horizontale Ausrichtung */
+    flex-wrap: wrap; /* Zeilenumbruch für die Responsivität */
+    justify-content: center; /* Zentrieren der Buttons horizontal */
+    gap: 10px; /* Abstand zwischen den Buttons */
+    padding: 20px; /* Innenabstand des Containers */
 }
 
-.my-button {
-    background-color: #4CAF50; /* Grün */
+.nav-button {
+    background-color: #b490902b; /* Grün */
     border: none; /* Kein Rand */
-    color: white; /* Weißer Text */
+    color: rgb(0, 0, 0); /* Weißer Text */
     padding: 15px 32px; /* Innenabstand */
     text-align: center; /* Text zentrieren */
     text-decoration: none; /* Keine Unterstreichung */
-    display: inline-block; /* Inline-Block-Level */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Vertikale Ausrichtung */
+    align-items: center; /* Zentrieren */
     font-size: 16px; /* Schriftgröße */
     margin: 4px 2px; /* Außenabstand */
     cursor: pointer; /* Zeiger-Cursor */
@@ -24,7 +23,11 @@ footer {
     transition: background-color 0.3s ease; /* Übergangseffekt */
 }
 
-/* Hover-Effekt */
-.my-button:hover {
-    background-color: #45a049; /* Dunkleres Grün */
+.nav-button:hover {
+    background-color: #a7a7a7;
+}
+
+.button-icon {
+    margin-bottom: 8px; /* Abstand zum Text */
+    font-size: 24px; /* Größe des Icons */
 }
