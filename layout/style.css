@@ -74,3 +74,76 @@ body, html {
   font-size: 3em;
   margin-top: 20px; /* Adjust as needed for space between buttons and text */
 }
+.content-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.text-center {
+  margin-bottom: 50px;
+}
+
+.text-center h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.text-center p {
+  font-size: 1em;
+  color: #555;
+}
+
+.image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-text img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.image-text .text {
+  max-width: 50%;
+}
+
+.image-text .text h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.image-text .text p {
+  font-size: 1em;
+  color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
