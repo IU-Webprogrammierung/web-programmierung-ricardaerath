@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet"/>
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <a id="top"></a>
+
 <div class="hero">
     <div class="overlay"></div>
     <img src="img/logo_white.png" alt="Logo" class="logo">
+    
+    <div class="burger-menu" id="burger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
     <div class="button-container">
         <a href="index.html" class="nav-button pressed">
             <img src="img/home_outline.svg" alt="Das Haus Icon" class="button-icon">
@@ -25,6 +33,22 @@
             <img src="img/maps-pin-line-icon.svg" alt="Die Lage und Attraktionen Icon" class="button-icon">
             <span>Die Lage und Attraktionen</span>
         </a>
+    </div>
+    <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-button">
+            <img src="img/home_outline.svg" alt="Das Haus Icon" class="button-icon">
+            <span>Das Haus</span>
+        </a>
+        <a href="Ferienwohnung.html" class="nav-button">
+            <img src="img/double-bed-icon.svg" alt="Die Ferienwohnung Icon" class="button-icon">
+            <span>Die Ferienwohnung</span>
+        </a>
+        <a href="Lage.html" class="nav-button">
+            <img src="img/maps-pin-line-icon.svg" alt="Die Lage und Attraktionen Icon" class="button-icon">
+            <span>Die Lage und Attraktionen</span>
+        </a>
+
+    </div>
     </div>
 </div>
 <section class="content-section">
@@ -70,7 +94,7 @@
         <li><a href="#impressum">Impressum</a></li>
         <li><a href="#datenschutz">Datenschutz</a></li>
     </ul>
-    <p class="copyright">&copy; 2024 Dein Firmenname. Alle Rechte vorbehalten.</p>
+    <p class="copyright">&copy; 2024 Haus Erath. Alle Rechte vorbehalten.</p>
 </footer>
 </body>
 </html>
